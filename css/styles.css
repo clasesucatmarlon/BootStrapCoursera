@@ -1,0 +1,46 @@
+.jumbotron {
+  background: black;
+  color: white;
+}
+
+.line {
+  background: gray;
+}
+
+.images {
+  height: 15rem;
+  width: 15rem;
+  text-align: end;
+}
+
+.footer {
+  background: black;
+  color: white;
+  
+}
+
+.titulo1 {
+  font-size: 1.2rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+  list-style: none;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white
+}
+
+.pie {
+    margin-left: 7.7rem;
+}
+
+.separacion {
+    border: 1px solid gray;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
