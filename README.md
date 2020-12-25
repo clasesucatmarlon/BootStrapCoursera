@@ -7,4 +7,4 @@ git remote add origin https://github.com/clasesucatmarlon/BootStrapCoursera.git
 
 
 ### Módulo 1:
-Diseñando páginas web con Bootstrap 4
+Proyecto final de Bootstrap 4.  Tienda de Laptops
