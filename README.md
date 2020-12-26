@@ -12,6 +12,6 @@ Proyecto de Bootstrap 4.  Tienda de Laptops
 ## Instalar librerías:
 ### Iconic:
 ```
-nmp install open-iconic --save
+npm install open-iconic --save
 ```
 
