@@ -17,7 +17,6 @@
 .footer {
   background: black;
   color: white;
-  
 }
 
 .titulo1 {
@@ -25,23 +24,41 @@
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
   list-style: none;
   font-size: 1rem;
   text-decoration: none;
-  color: white
+  color: white;
 }
 
 .pie {
-    margin-left: 7.7rem;
+  margin-left: 7.7rem;
 }
 
 .separacion {
-    border: 1px solid gray;
-    margin-top: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+  border: 1px solid gray;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+/* ABOUT */
+.about-body {
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+  color: blue;
+}
+
+.breadcrumb-text {
+  font-weight: 2rem;
+  font-size: 1.5rem;
+}
+
+.breadcrumb a {
+  color:black;
+  font-weight: 2rem;
+  font-size: 1.5rem;
 }
