@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso de Bootstrap 4</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Laptops</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Términos</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Contacto</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="jumbotron p-5">
+        <h2 class="display-4">Computers Tech</h2>
+        <h3>Venta de las mejores Laptops del mercado</h3>
+        <hr class="line my-4">
+        <p class="lead">Las computadoras portátiles le ofrecen el rendimiento que necesita para liberarse de su
+            escritorio y sentirse cómodo. Con la computadora portátil correcta, puede incluso procesar tareas pesadas,
+            como juegos nuevos o cargas de trabajo creativas, como la edición y el renderizado. Agregue la increíble
+            versatilidad de las opciones de conectividad de próxima generación y rendimiento optimizado de la batería
+            para trabajar, jugar y divertirse en cualquier lugar.</p>
+
+    </div>
+    <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item breadcrumb-text"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active breadcrumb-text" aria-current="page">Contacto</li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center mt-5 mb-5">Deja tú comentario</h1>
+        <form class="p-3 border mb-5">
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label class="font-weight-bold" for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+
+                <div class="form-group col-sm-6">
+                    <label class="font-weight-bold" for="apellido">Apellido:</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="font-weight-bold" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-sm-9">
+                    <label class="font-weight-bold" for="domicilio">Domicilio:</label>
+                    <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
+                </div>
+
+                <div class="form-group col-sm-3">
+                    <label class="font-weight-bold" for="departamento">Departamento:</label>
+                    <select class="form-control" id="departamento">
+                        <option selected>Antioquía</option>
+                        <option>Bogotá</option>
+                        <option>Bucaramanga</option>
+                        <option>Calí</option>
+                        <option>Cartagena</option>
+                        <option>Valledupar</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="font-weight-bold" for="comentario">Comentario:</label>
+                <textarea class="form-control" id="comentario" rows="8" placeholder="Ingrese comentario"></textarea>
+            </div>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="font-weight-bold form-check-label" for="gridCheck">Quero que me contacten</label>
+                </div>
+            </div>
+
+
+
+            <button type="submit" cclase="btn btn-outline-dark">Enviar</button>
+
+        </form>
+    </div>
+
+
+
+    <footer>
+        <div class="container-fluid d-flex flex-column footer p-4 mb-1">
+            <div class="row">
+                <div class="col">
+                    <h5 class="text-center">Todos los derechos reservados - Computers Tech 2021</h5>
+                </div>
+            </div>
+
+            <div class="separacion"></div>
+
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap">
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-4 my-sm-3 text-center">
+                        <h6 class="titulo1 font-weight-bold">Contáctenos</h6>
+                        <address>
+                            <li>C.C. La Arboleda. El Poblado.</li>
+                            <li>Medellín - Colombia</li>
+                            <li>Piso 3. Local C-332</li>
+                            <li>Telf: (+57) - 4455667</li>
+                            <li>Email: computerstech@gmail.com</li>
+                        </address>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-4 my-sm-3 text-center">
+                        <h6 class="titulo1 font-weight-bold">Nuestra compañía</h6>
+                        <li><a class="text-light" href="">Quiénes somos</a></li>
+                        <li><a class="text-light" href="">Nuestras tiendas</a></li>
+                        <li><a class="text-light" href="">Contanténos</a></li>
+                        <li><a class="text-light" href="">Proveedores</a></li>
+                        <li><a class="text-light" href="">Trabaje con nosotros</a></li>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-4 my-sm-3 text-center">
+                        <h6 class="titulo1 font-weight-bold">Políticas</h6>
+                        <li><a class="text-light" href="">Políticas de entrega</a></li>
+                        <li><a class="text-light" href="">Políticas de privacidad</a></li>
+                        <li><a class="text-light" href="">Contanténos</a></li>
+                        <li><a class="text-light" href="">Proveedores</a></li>
+                        <li><a class="text-light" href="">Trabaje con nosotros</a></li>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-4 my-sm-3 text-center">
+                        <h6 class="titulo1 font-weight-bold">Redes sociales</h6>
+                        <li><a class="text-light" href="">Facebook</a></li>
+                        <li><a class="ext-light" href="">Instagram</a></li>
+                        <li><a class="text-light" href="">Twitter</a></li>
+                        <li><a class="text-light" href="">Linkedin</a></li>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
