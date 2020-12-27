@@ -8,10 +8,9 @@
   background: gray;
 }
 
-.images {
-  height: 15rem;
-  width: 15rem;
-  text-align: end;
+.card-img-top {
+  width: 18rem;
+  height: 18rem;
 }
 
 .footer {
