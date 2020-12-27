@@ -13,6 +13,10 @@
   height: 18rem;
 }
 
+.fondo {
+  width: 150%;
+}
+
 .footer {
   background: black;
   color: white;
